@@ -1,6 +1,5 @@
 # HW05-Crypto
 homework 5 cryptography
-test
 
 # Hybrid Cryptosystems
 
