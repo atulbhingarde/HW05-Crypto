@@ -33,7 +33,7 @@ To complete the homework, you'll need to take a screenshot of each step and subm
 
 - Take a screenshot.
 
-[Secret_message_file](secret_message.png)
+![Secret_message_file](secret_message.png)
 
 ### Generate an RSA Keypair
 
