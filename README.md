@@ -48,7 +48,7 @@ Next, you'll generate an RSA keypair through the following steps.
   - `openssl rsa -in private.pem -outform PEM -pubout -out public.pem`
 
 - Take a screenshot of your terminal with the commands from above.
-
+![one_more](one_more.png)
 ### Trade Public Keys
 
 - Next, send your partner your public key via Slack.
