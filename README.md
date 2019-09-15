@@ -45,7 +45,7 @@ Next, you'll generate an RSA keypair through the following steps.
 
 - Extract the public key from this keypair with:
 
-  - _*`openssl rsa -in private.pem -outform PEM -pubout -out public.pem`*_
+  - _**`openssl rsa -in private.pem -outform PEM -pubout -out public.pem`**_
 
 - Take a screenshot of your terminal with the commands from above.
 ![one_more](one_more.png)
