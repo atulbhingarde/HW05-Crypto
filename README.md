@@ -27,7 +27,7 @@ To complete the homework, you'll need to take a screenshot of each step and subm
 
 ### Make a Confession
 
-- To get started, create a new directory, called _*`~/Documents/HybridCryptosystems`*_, and change into it.
+- To get started, create a new directory, called _**`~/Documents/HybridCryptosystems`**_, and change into it.
 
 - Create a new file in this directory, and call it `dirty_little_secret`. Use it to save a (dirty, little) secret message.
 
