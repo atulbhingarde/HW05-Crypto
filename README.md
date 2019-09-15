@@ -29,7 +29,7 @@ To complete the homework, you'll need to take a screenshot of each step and subm
 
 - To get started, create a new directory, called _**`~/Documents/HybridCryptosystems`**_, and change into it.
 
-- Create a new file in this directory, and call it `dirty_little_secret`. Use it to save a (dirty, little) secret message.
+- Create a new file in this directory, and call it _**`dirty_little_secret.txt`**_. Use it to save a (dirty, little) secret message.
 
 - Take a screenshot.
 
@@ -41,7 +41,7 @@ Next, you'll generate an RSA keypair through the following steps.
 
 - Create a 2048 bit RSA private/public keypair with:
 
-    - _*`openssl genrsa -des3 -out private.pem 2048`*_
+    - _**`openssl genrsa -des3 -out private.pem 2048`**_
 
 - Extract the public key from this keypair with:
 
