@@ -27,7 +27,7 @@ To complete the homework, you'll need to take a screenshot of each step and subm
 
 ### Make a Confession
 
-- To get started, create a new directory, called `~/Documents/HybridCryptosystems`, and change into it.
+- To get started, create a new directory, called _*`~/Documents/HybridCryptosystems`*_, and change into it.
 
 - Create a new file in this directory, and call it `dirty_little_secret`. Use it to save a (dirty, little) secret message.
 
@@ -41,11 +41,11 @@ Next, you'll generate an RSA keypair through the following steps.
 
 - Create a 2048 bit RSA private/public keypair with:
 
-    - `openssl genrsa -des3 -out private.pem 2048`
+    - _*`openssl genrsa -des3 -out private.pem 2048`*_
 
 - Extract the public key from this keypair with:
 
-  - `openssl rsa -in private.pem -outform PEM -pubout -out public.pem`
+  - _*`openssl rsa -in private.pem -outform PEM -pubout -out public.pem`*_
 
 - Take a screenshot of your terminal with the commands from above.
 ![one_more](one_more.png)
@@ -53,9 +53,9 @@ Next, you'll generate an RSA keypair through the following steps.
 
 - Next, send your partner your public key via Slack.
 
-  - **Make absolutely sure you're _not_ sending your private key.** Run: `cat public.pem`, and ensure the file says `BEGIN PUBLIC KEY` at the top, and `END PUBLIC KEY` at the bottom.
+  - **Make absolutely sure you're _not_ sending your private key.** Run: _*`cat public.pem`*_, and ensure the file says `BEGIN PUBLIC KEY` at the top, and `END PUBLIC KEY` at the bottom.
 
-  - **Be sure to rename your partner's public key to**: `partners_public.pem`. If you don't do this before you move it into your activity folder, you'll overwrite your own!
+  - **Be sure to rename your partner's public key to**: _*`partners_public.pem`*_. If you don't do this before you move it into your activity folder, you'll overwrite your own!
 
   - _After_ you've renamed your partner's key, move it into ~/Documents/HybridCryptosystems.
 
