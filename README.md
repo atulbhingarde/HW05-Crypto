@@ -55,7 +55,7 @@ Next, you'll generate an RSA keypair through the following steps.
 
   - **Make absolutely sure you're _not_ sending your private key.** Run: _*`cat public.pem`*_, and ensure the file says `BEGIN PUBLIC KEY` at the top, and `END PUBLIC KEY` at the bottom.
 
-  - Recieve your partners public key and save it appropriately **Be sure to rename your partner's public key to**: _*`partners_public.pem`*_. If you don't do this before you move it into your activity folder, you'll overwrite your own!
+  - Recieve your partners public key and save it appropriately **Be sure to rename your partner's public key to**: _**`partners_public.pem`**_. If you don't do this before you move it into your activity folder, you'll overwrite your own!
 
   - _After_ you've renamed your partner's key, move it into ~/Documents/HybridCryptosystems.
 
