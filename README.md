@@ -69,7 +69,7 @@ You'll also generate something called an **Initialization Vector**, or IV. This 
 
 - To generate a symmetric key and IV, run the following.
 
-  - `openssl enc -aes-256-cbc -nosalt -k password -P | tee secrets`
+  - _**openssl enc -aes-256-cbc -nosalt -k password -P | tee secrets`**_
 
   - Take a screenshot of your terminal after running the above command.
 
