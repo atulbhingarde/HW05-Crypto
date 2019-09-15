@@ -116,7 +116,7 @@ This way, your partner can use their _private_ key to decrypt the symmetric key,
 
 ### Trade Files
 
-- Now, you can send `symmetrickey.dat.enc`, `iv.dat`, and `dirty_little_secret.enc` to your partner.
+- Now, you can send `symmetrickey.enc`, `iv.dat`, and `dirty_little_secret.enc` to your partner.
 
 - When you get your partner's files, **rename them to**: `partners_dirty_little_secret.enc`, `partners_symmetric_key.enc`, and `partners_iv.dat`.
 
