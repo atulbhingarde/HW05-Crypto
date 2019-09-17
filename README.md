@@ -60,7 +60,7 @@ Next, you'll generate an RSA keypair through the following steps.
   - _After_ you've renamed your partner's key, move it into ~/Documents/HybridCryptosystems.
 
 - Take a screenshot of your partner's key in ~/Documents/HybridCryptosystems.
-
+![one_more](partners_key.png)
 ### Generate an AES Key
 
 In this section, you'll use OpenSSL to generate a symmetric key, which you'll use to encrypt your message.
@@ -72,6 +72,7 @@ You'll also generate something called an **Initialization Vector**, or IV. This 
   - `openssl enc -aes-256-cbc -nosalt -k password -P | tee secrets`
 
   - Take a screenshot of your terminal after running the above command.
+![one_more](my_dat.png)
 
 - Open up the file `secrets`. You'll see two lines. The first has your `key`, and the second, your `iv`.
 
@@ -80,7 +81,7 @@ You'll also generate something called an **Initialization Vector**, or IV. This 
   - Create a file called `iv.dat`. Copy and paste the IV from `secrets` into `iv.dat`. As before, _only_ copy the string to the right of the equals sign.
 
 - Take a screenshot of your `symmetrickey.dat` and `iv.dat` files either in your terminal or file finder.
-
+![one_more](my_dat.png)
 ### Encrypt Your Message
 
 Now that you have a symmetric key, you can use it to encrypt messages!
@@ -99,7 +100,7 @@ Now that you have a symmetric key, you can use it to encrypt messages!
 
 - Take a screenshot of your terminal, including both commands in this section.
 
-
+![this one](thisone.png)
 ### Encrypt Your Symmetric Key
 
 Next, you'll use your partner's public key to encrypt your symmetric key. 
@@ -113,6 +114,7 @@ This way, your partner can use their _private_ key to decrypt the symmetric key,
 - You might be wondering if you have to encode the IV. The answer is—**no**!
 
 - Take a screenshot of your terminal.
+![secret key incoded ](secret_key_encoded.png)
 
 ### Trade Files
 
@@ -121,7 +123,7 @@ This way, your partner can use their _private_ key to decrypt the symmetric key,
 - When you get your partner's files, **rename them to**: `partners_dirty_little_secret.enc`, `partners_symmetric_key.enc`, and `partners_iv.dat`.
 
 - Take a screenshot of your partner's files in your terminal or file finder.
-
+![partners filesl](partners_files.png)
 ### Decrypt!
 
 - Finally, move into `~/Documents/HybridCryptosytems`.
@@ -143,7 +145,7 @@ This way, your partner can use their _private_ key to decrypt the symmetric key,
   - `openssl enc -aes-256-cbc -d -nosalt -in partners_dirty_little_secret.enc -base64 -K <partner's symmetric key> -iv <partner's IV>`
 
   - As with encryption, copy and paste your partner's symmetric key where the `<partner's symmetric key>` placeholder is, and your partner's IV where `<partner's IV>` appears.
-
+![final](final.png)
 - If all went well, you should now be able to read your partner's dirty little secret!
 
 - Take a screenshot of your terminal with the commands from this section and take a screenshot of your partner's decrypted file.
